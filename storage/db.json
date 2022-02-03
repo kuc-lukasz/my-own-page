@@ -23,7 +23,7 @@
     {
       "id": "16",
       "title": "React App - external server",
-      "img": "/projects IMG/ReactAppWithExternalServer.png",
+      "img": "/projects-img/ReactAppWithExternalServer.png",
       "language": [
         "react",
         "routing",
@@ -41,7 +41,7 @@
     {
       "id": "15",
       "title": "Find a Movie",
-      "img": "/projects IMG/findMovie.png",
+      "img": "/projects-img/findMovie.png",
       "language": [
         "react",
         "html",
