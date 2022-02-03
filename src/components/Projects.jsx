@@ -1,9 +1,23 @@
 import { SingleProject } from "./SingleProject";
+import SingleProjectWindow from "./SingleProjectWindow";
+import { useFetch } from "./useFetch";
 
 export const Projects = () => {
-  return (
-    <div>
-      <SingleProject />
-    </div>
-  );
+    const {
+        data: projects,
+        isPending,
+        error,
+    } = useFetch("http://localhost:3005/Projects");
+
+    return (
+        <div className="projects">
+            {error && <div>Nie możemy pobrać danych</div>}
+            {isPending && <div>Loading ... </div>}
+            {projects && (
+                <>
+                    <SingleProject projects={projects} title="Projects" />
+                </>
+            )}
+        </div>
+    );
 };
