@@ -1,5 +1,5 @@
 import { SingleProject } from "./SingleProject";
-import SingleProjectWindow from "./SingleProjectWindow";
+
 import { useFetch } from "./useFetch";
 
 export const Projects = () => {
@@ -13,11 +13,7 @@ export const Projects = () => {
         <div className="projects">
             {error && <div>Nie możemy pobrać danych</div>}
             {isPending && <div>Loading ... </div>}
-            {projects && (
-                <>
-                    <SingleProject projects={projects} title="Projects" />
-                </>
-            )}
+            {projects && <SingleProject projects={projects} title="Projects" />}
         </div>
     );
 };

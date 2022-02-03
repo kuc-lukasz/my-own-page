@@ -1,10 +1,14 @@
 import { useFetch } from "./useFetch";
+import { useParams } from "react-router-dom";
+
 export const SingleProjectWindow = () => {
+    const { id } = useParams();
     const {
         data: projects,
         isPending,
         error,
-    } = useFetch("http://localhost:3005/Projects");
+    } = useFetch("http://localhost:3005/Projects/" + id);
+
     return (
         <div>
             {error && <div>Nie możemy pobrać danych</div>}
@@ -27,7 +31,6 @@ export const SingleProjectWindow = () => {
                     </div>
                 </div>
             )}
-            <SingleProjectWindow />
         </div>
     );
 };
