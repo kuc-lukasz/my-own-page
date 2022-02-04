@@ -1,0 +1,29 @@
+.mainWindow {
+    max-width: 960px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.808);
+    padding: 50px;
+    color: lightblue;
+    margin: 50px;
+    margin-top: 150px;
+}
+.h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.p {
+    text-align: justify;
+}
+@media screen and (max-width: 800px) {
+    .mainWindow {
+        padding: 20px;
+        margin-top: 90px;
+    }
+}

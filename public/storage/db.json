@@ -147,9 +147,7 @@
             "describe": "This is a commercial website project. In the background, I put in video, gradient, and image. Instead of scrolling website, I added a slider with animations. The website is responsive.",
             "videoSrc": "https://www.youtube.com/embed/LdeA9_JHe8Q",
             "github": "https://github.com/kuc-lukasz/website-comm-project",
-            "github-icon": "/img/github-blue.png",
-            "website": "https://vffpolska.com.pl/",
-            "githubIcon": "img/officialweblogo.png"
+            "githubIcon": "/img/github-blue.png"
         },
         {
             "id": "7",
