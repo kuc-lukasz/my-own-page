@@ -35,7 +35,7 @@ export const SingleProjectWindow = () => {
                         </div>
                     </div>
 
-                    <a href={projects.github} className={SPW.a}>
+                    <a href={projects.github} className={SPW.a} target="_blank">
                         <img src={projects.githubIcon} alt="githubIcon" />
                         <p className={SPW.githubText}>GITHUB CODE</p>
                     </a>

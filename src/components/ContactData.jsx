@@ -11,15 +11,15 @@ export const ContactData = () => {
             <li className={CD.li}>
                 <a href="tel:607154416" className={CD.a}>
                     <img src={CallmeIcon} alt="callMeIcon" />
-                    Call me!
+                    +48 607 154 416
                 </a>
                 {/* <p>+48 607 154 416</p> */}
             </li>
             <li className={CD.li}>
                 <a href="mailto:lukaszkuc93@gmail.com" className={CD.a}>
-                    <img src={TextMeIcon} alt="WriteMeIcon" /> Write me!
+                    <img src={TextMeIcon} alt="WriteMeIcon" />{" "}
+                    lukaszkuc93@gmail.com
                 </a>
-                {/* <p>lukaszkuc93@gmail.com</p> */}
             </li>
             <li className={CD.li}>
                 <a href="https://github.com/kuc-lukasz" className={CD.a}>
