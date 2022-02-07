@@ -1,5 +1,5 @@
 import SP from "../styles/SingleProject.module.css";
-import { Link } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 export const SingleProject = ({ projects }) => {
     return (
@@ -7,7 +7,10 @@ export const SingleProject = ({ projects }) => {
             {projects.map((project) => {
                 return (
                     <div className={SP.singleProjectWindow} key={project.id}>
-                        <Link to={`/projects/${project.id}`} className={SP.a}>
+                        <NavLink
+                            to={`/projects/${project.id}`}
+                            className={SP.a}
+                        >
                             <h4 className={SP.h4}>{project.title}</h4>
                             <div className={SP.img}>
                                 <img src={project.img} alt="project-img" />
@@ -17,10 +20,11 @@ export const SingleProject = ({ projects }) => {
                                     return <p className={SP.p}>{lang}</p>;
                                 })}
                             </div>
-                        </Link>
+                        </NavLink>
                     </div>
                 );
             })}
+            <Outlet />
         </>
     );
 };
