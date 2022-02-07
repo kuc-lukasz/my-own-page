@@ -21,7 +21,7 @@
 }
 
 .vidAndAbout {
-    margin: 50px;
+    margin: 50px 15px 50px 15px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -12,7 +12,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route
-                        path="/projects/:id/*"
+                        path="/projects/:id"
                         element={<SingleProjectWindow />}
                     />
                     <Route path="/projects" element={<Projects />} />

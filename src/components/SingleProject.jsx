@@ -1,12 +1,12 @@
 import SP from "../styles/SingleProject.module.css";
 import { Link } from "react-router-dom";
+
 export const SingleProject = ({ projects }) => {
     return (
         <>
             {projects.map((project) => {
-                console.log("dziala?");
                 return (
-                    <div className={SP.singleProjectWindow} key={project.title}>
+                    <div className={SP.singleProjectWindow} key={project.id}>
                         <Link to={`/projects/${project.id}`} className={SP.a}>
                             <h4 className={SP.h4}>{project.title}</h4>
                             <div className={SP.img}>

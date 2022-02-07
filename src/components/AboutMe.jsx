@@ -1,7 +1,7 @@
 import AM from "../styles/AboutMe.module.css";
 import MeIcon from "../icons/aboutme.png";
 import ContactData from "./ContactData";
-import Navigation from "./Navigation";
+import { Navigation } from "./Navigation";
 export const AboutMe = () => {
     return (
         <div className={AM.mainWindow}>
