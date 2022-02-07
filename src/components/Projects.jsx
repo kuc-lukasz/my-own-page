@@ -5,17 +5,17 @@ import ProjectsStyles from "../styles/Projects.module.css";
 import Navigation from "./Navigation";
 
 export const Projects = () => {
-    const {
-        data: projects,
-        isPending,
-        error,
-    } = useFetch("http://localhost:3005/Projects");
-
+    const { data: projects, isPending, error } = useFetch("/storage/db.json");
+    console.log(projects);
     return (
         <div className={ProjectsStyles.mainWindow}>
             {error && <div>Nie możemy pobrać danych</div>}
             {isPending && <div>Loading ... </div>}
-            {projects && <SingleProject projects={projects} title="Projects" />}
+            {projects && projects.length > 0 ? (
+                <SingleProject projects={projects} title="Projects" />
+            ) : (
+                <></>
+            )}
             <Navigation />
         </div>
     );

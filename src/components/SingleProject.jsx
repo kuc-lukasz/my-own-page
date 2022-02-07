@@ -4,6 +4,7 @@ export const SingleProject = ({ projects }) => {
     return (
         <>
             {projects.map((project) => {
+                console.log("dziala?");
                 return (
                     <div className={SP.singleProjectWindow} key={project.title}>
                         <Link to={`/projects/${project.id}`} className={SP.a}>
