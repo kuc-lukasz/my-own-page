@@ -22,7 +22,12 @@ export const ContactData = () => {
                 </a>
             </li>
             <li className={CD.li}>
-                <a href="https://github.com/kuc-lukasz" className={CD.a}>
+                <a
+                    href="https://github.com/kuc-lukasz"
+                    className={CD.a}
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img src={GithubIcon} alt="GithubIcon" /> Github
                 </a>
             </li>
@@ -30,6 +35,8 @@ export const ContactData = () => {
                 <a
                     href="https://www.linkedin.com/in/%C5%82ukasz-kuc-b83666a7/"
                     className={CD.a}
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     <img src={LinkedInIcon} alt="LinkedInIcon" /> Linkedin
                 </a>

@@ -5,7 +5,6 @@ import { getProject } from "../storage/db";
 
 export const SingleProjectWindow = () => {
     let params = useParams();
-
     let project = getProject(params.id);
 
     return (

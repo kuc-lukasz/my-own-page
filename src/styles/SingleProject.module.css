@@ -20,6 +20,9 @@
     letter-spacing: 2px;
     cursor: pointer;
 }
+.singleProjectWindow:hover {
+    background-color: rgba(0, 0, 0);
+}
 .a {
     text-decoration: none;
 }

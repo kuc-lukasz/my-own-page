@@ -74,6 +74,7 @@
     justify-content: center;
     word-spacing: 2px;
     text-align: justify;
+    word-break: normal;
 }
 .a {
     display: flex;
