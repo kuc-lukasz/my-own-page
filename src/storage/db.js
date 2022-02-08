@@ -7,7 +7,7 @@ let data = [
         describe:
             "I try to improve my code every day. That's why I decided to create a page about myself from scratch, where I put all my projects and introduce myself. The website has two versions, first it was prepared with a .json file where I use useEffect (), Github link: github.com/kuc-lukasz/training/tree/main/react-about-me-page. And the one that is visible where the data is displayed from the file. The site was created in the React library where I used my own CSS styles. Additionally, I used React Router v.6.",
         videoSrc: "https://www.youtube.com/embed/DGMsMshGrMQ",
-        github: "https://github.com/kuc-lukasz/training/tree/main/recruting-task",
+        github: "https://github.com/kuc-lukasz/my-own-page-react",
         githubIcon: "/img/github-blue.png",
     },
     {
