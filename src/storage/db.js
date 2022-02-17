@@ -1,9 +1,9 @@
 let data = [
     {
         id: "18",
-        title: "Write your blog",
+        title: "Your blog",
         img: "/projectsImgs/reactBlog.png",
-        language: ["react", "styled-components", "React - Router@6"],
+        language: ["react", "styled-components", "React - Router@6", ".json"],
         describe:
             "Working on a .json file.  \nControl form implemented, where you can add and remove posts from the main page and directly from the given post.  \nThe styled-components library was used for styles. Additionally, a react-router @ 6 was used for navigation ",
         videoSrc: "https://www.youtube.com/embed/jw8KFewK7Ag",
