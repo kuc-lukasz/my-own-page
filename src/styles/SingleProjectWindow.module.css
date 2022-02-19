@@ -89,6 +89,7 @@
     align-items: center;
     text-decoration: none;
 }
+
 .a > * {
     display: inline-block;
     color: lightblue;
@@ -143,5 +144,8 @@
     }
     .bottom {
         flex-direction: column;
+    }
+    .a + a {
+        margin-top: 20px;
     }
 }

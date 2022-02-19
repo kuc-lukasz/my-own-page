@@ -31,16 +31,6 @@ export const SingleProjectWindow = () => {
                     </div>
                 </div>
                 <div className={SPW.bottom}>
-                    {" "}
-                    <a
-                        href={project.github}
-                        className={SPW.a}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img src={project.githubIcon} alt="githubIcon" />
-                        <p className={SPW.githubText}>GITHUB CODE</p>
-                    </a>
                     {project.netflify ? (
                         <a
                             href={project.netflify}
@@ -54,6 +44,15 @@ export const SingleProjectWindow = () => {
                     ) : (
                         ""
                     )}
+                    <a
+                        href={project.github}
+                        className={SPW.a}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img src={project.githubIcon} alt="githubIcon" />
+                        <p className={SPW.githubText}>GITHUB CODE</p>
+                    </a>
                 </div>
             </div>
         </>
