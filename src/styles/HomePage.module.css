@@ -32,10 +32,14 @@
 }
 .p {
     margin-top: 35px;
+    margin-bottom: 0;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: small;
     font-weight: 600;
+}
+.p + p {
+    margin-top: 0;
 }
 .a {
     text-decoration: none;
