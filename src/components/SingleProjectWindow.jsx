@@ -49,7 +49,7 @@ export const SingleProjectWindow = () => {
                             rel="noreferrer"
                         >
                             <img src={project.netflifyIcon} alt="githubIcon" />
-                            <p className={SPW.githubText}>TRY IT!</p>
+                            <p className={SPW.githubText}>TRY IT</p>
                         </a>
                     ) : (
                         ""

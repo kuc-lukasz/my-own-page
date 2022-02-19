@@ -5,7 +5,7 @@ let data = [
         img: "/projectsImgs/reactMemoryGame.png",
         language: ["react", "typescript", "styled-components"],
         describe:
-            "I created a well-known game where we have to remember the positions of the cards and match them in pairs. A game entirely written in React. This is my first project entirely written with typescript. Test the game by clicking on TRY IT.",
+            "I created a well-known game where we have to remember the positions of the cards and match them in pairs. \n\n A game entirely written in React. This is my first project entirely written with typescript. \n\nTest the game by clicking on TRY IT.",
         videoSrc: "https://www.youtube.com/embed/jw8KFewK7Ag",
         github: "https://github.com/kuc-lukasz/react-memory-game",
         githubIcon: "/img/github-blue.png",

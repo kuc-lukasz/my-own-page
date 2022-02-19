@@ -141,4 +141,7 @@
         right: 30%;
         height: 2px;
     }
+    .bottom {
+        flex-direction: column;
+    }
 }
