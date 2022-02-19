@@ -13,8 +13,9 @@ export const HomePage = () => {
                 <div className={HP.personalInfo}>
                     <h2 className={HP.h2}>Łukasz Kuc</h2>
                     <h5 className={HP.h5}>Front-end developer</h5>
+                    <p className={HP.p}>javascript | react | typescript</p>
                     <p className={HP.p}>
-                        html | css | javascript | react | typescript
+                        styled-components | bootstrap | material-UI
                     </p>
                 </div>
                 <div className="HP.links">
