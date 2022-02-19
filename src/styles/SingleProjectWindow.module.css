@@ -76,12 +76,18 @@
     text-align: justify;
     word-break: normal;
 }
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 20px;
+    width: 100%;
+}
 .a {
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin: 20px auto;
 }
 .a > * {
     display: inline-block;

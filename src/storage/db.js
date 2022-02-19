@@ -1,5 +1,18 @@
 let data = [
     {
+        id: "19",
+        title: "React Memory Game",
+        img: "/projectsImgs/reactMemoryGame.png",
+        language: ["react", "typescript", "styled-components"],
+        describe:
+            "I created a well-known game where we have to remember the positions of the cards and match them in pairs. A game entirely written in React. This is my first project entirely written with typescript. Test the game by clicking on TRY IT.",
+        videoSrc: "https://www.youtube.com/embed/jw8KFewK7Ag",
+        github: "https://github.com/kuc-lukasz/react-memory-game",
+        githubIcon: "/img/github-blue.png",
+        netflify: "https://kuclukasz-react-memory-game.netlify.app/",
+        netflifyIcon: "/img/tryIcon.png",
+    },
+    {
         id: "18",
         title: "Your blog",
         img: "/projectsImgs/reactBlog.png",

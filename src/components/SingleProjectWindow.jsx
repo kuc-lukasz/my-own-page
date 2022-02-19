@@ -30,16 +30,31 @@ export const SingleProjectWindow = () => {
                         </p>
                     </div>
                 </div>
-
-                <a
-                    href={project.github}
-                    className={SPW.a}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <img src={project.githubIcon} alt="githubIcon" />
-                    <p className={SPW.githubText}>GITHUB CODE</p>
-                </a>
+                <div className={SPW.bottom}>
+                    {" "}
+                    <a
+                        href={project.github}
+                        className={SPW.a}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img src={project.githubIcon} alt="githubIcon" />
+                        <p className={SPW.githubText}>GITHUB CODE</p>
+                    </a>
+                    {project.netflify ? (
+                        <a
+                            href={project.netflify}
+                            className={SPW.a}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <img src={project.netflifyIcon} alt="githubIcon" />
+                            <p className={SPW.githubText}>TRY IT!</p>
+                        </a>
+                    ) : (
+                        ""
+                    )}
+                </div>
             </div>
         </>
     );
